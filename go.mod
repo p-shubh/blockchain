@@ -2,7 +2,10 @@ module main.go
 
 go 1.23.0
 
-require github.com/gagliardetto/solana-go v1.13.0
+require (
+	github.com/gagliardetto/solana-go v1.13.0
+	github.com/joho/godotenv v1.5.1
+)
 
 require (
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
